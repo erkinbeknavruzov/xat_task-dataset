@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+*.log
+
+# Local processing outputs
+output/
+outputs/
+results/
+tmp/
+temp/
+cache/
+ocr_cache/
+
+# Extracted / generated intermediate text
+*_ocr.txt
+*_normalized.txt
+*_parsed.json
+*_debug.json
+
+# Archives used only for transport
+*.rar
+*.zip
+*.7z
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
